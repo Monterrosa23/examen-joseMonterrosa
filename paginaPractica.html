@@ -1,1 +1,55 @@
-<html></html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de practica</title>
+    </head>
+    <body>
+        <style>
+            *{
+                padding: 10px;
+                margin: 10px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color: beige;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            input{
+                text-decoration: none;
+                border-radius: 20px;
+                
+                border-style: initial;
+            }
+            input:focus{
+                border-color: brown;
+            }
+
+        </style>
+        <div class ="container">
+            <main>
+                <h1> Bienvenidos a la pagina  del examen practico 2</h1>
+                <p>
+                    este es un texto de ejemplo, estamos en el cambio 1 del repositorio
+                </p>
+            </main>
+            <aside>
+                <form>
+                    <label>Ingrese el nombre de la materia</label>
+                    <input name="materia" id="materia" type="text" placeholder="Metodologias....">
+                    <br>
+                    <label>Ingrese el nombre de la carrera</label>
+                    <input name="carrera" id="carrera" type="text" placeholder="tecnico en....">
+                    <br>
+                    <label>Ingrese ciclo en el que se encuentre</label>
+                    <input name="ciclo" id="ciclo" type="number" placeholder="ciclo .....">
+                </form>
+                
+            </aside>
+        </div>
+    </body>
+</html>
+
